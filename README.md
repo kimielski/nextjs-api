@@ -10,6 +10,7 @@ npm install
 cp .env.local.example .env.local
 # and edit .env.local
 
+
 npm run dev
 # or
 yarn dev
@@ -17,10 +18,9 @@ yarn dev
 
 ## APP
 
-Country information:
+Countries information:
+
+http://localhost:3000/countries
 
 http://localhost:3000/countries/${countryCode}
 
-Cities lat/lon info:
-
-http://localhost:3000/weather

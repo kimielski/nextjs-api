@@ -1,7 +1,10 @@
+import Navigation from "./Navigation";
+
 export default function Header() {
-    return (
-        <>
-            <p>Logo</p>
-        </>
-    )
+  return (
+    <>
+      <p>Logo</p>
+      <Navigation />
+    </>
+  );
 }
