@@ -1,3 +1,3 @@
 export default function Page() {
-  return <h1>Next.js test app</h1>;
+  return <h1 className="text-3xl">Next.js test app</h1>;
 }
